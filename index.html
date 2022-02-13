@@ -52,16 +52,16 @@
                 <p class="about-text">
                     We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <div class="members-list"> 
-                    <div class="member-item">
+                <div class="row members-list"> 
+                    <div class="col col-third text-content ">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/bandmember.jpg" alt="" class="member-image">
                     </div>
-                    <div class="member-item">
+                    <div class="col col-third text-content">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/bandmember.jpg" alt="" class="member-image">
                     </div>
-                    <div class="member-item">
+                    <div class="col col-third text-content">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/bandmember.jpg" alt="" class="member-image">
                     </div>
@@ -79,8 +79,8 @@
                         <li>November <span class="quantity">3</span></li>
                     </ul>
                     <!-- Places -->
-                    <div class="places-list">
-                        <div class="place-item">
+                    <div class="row ">
+                        <div class="col col-third">
                             <img src="./assets/img/newyork.jpg" alt="" class="place-img">
                             <div class="place-boby">
                                 <h3 class="place-heading">New Yord</h3>
@@ -89,7 +89,7 @@
                                 <a href="#" class="place-buy">Buy Tickets</a>
                             </div>
                         </div>
-                        <div class="place-item">
+                        <div class="col col-third">
                             <img src="./assets/img/paris.jpg" alt="" class="place-img">
                             <div class="place-boby">
                                 <h3 class="place-heading">Paris</h3>
@@ -98,7 +98,7 @@
                                 <a href="#" class="place-buy">Buy Tickets</a>
                             </div>
                         </div>
-                        <div class="place-item">
+                        <div class="col col-third">
                             <img src="./assets/img/sanfran.jpg" alt="" class="place-img">
                             <div class="place-boby">
                                 <h3 class="place-heading">San Francisco</h3>
@@ -118,6 +118,33 @@
             <div class="content-section">
                 <h2 class="section-heading"> CONTACT </h2>
                 <p class="section-sub-heading"> Fan? Drop a note! </p>
+                <div class="row contact-content">
+                    <div class="col col-haft contact-info">
+                        <div class="icon">
+                            <p><i class = "ti-location-pin"></i>Chicago, USA</p>
+                            <p><i class = "ti-mobile"></i>Phone: +00 151515</p>
+                            <p><i class = "ti-email"></i>Email: phanduc@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col col-haft">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-haft">
+                                    <input type="text" name="" placeholder = "Name" id="" class="form-control">
+                                </div>
+                                <div class="col col-haft">
+                                    <input type="text" name="" placeholder = "Email" id="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder = "Message" id="" class="form-control">
+                                </div>
+                            </div>
+                            <input class = "mt-16 form-submit" type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
             </div>
 
         </div>
